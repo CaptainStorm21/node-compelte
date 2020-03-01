@@ -1,0 +1,1 @@
+Moshi's node class
