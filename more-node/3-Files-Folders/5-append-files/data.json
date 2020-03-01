@@ -1,0 +1,19 @@
+{
+    "fruit": "Apple",
+    "size": "Large",
+    "color": "Red",
+    "countriesList": [
+        {
+            "country": "finland",
+            "city": "Helsinki"
+        },
+        {
+            "country": "norway",
+            "city": "Oslo"
+        },
+        {
+            "country": "sweden",
+            "city": "stockholm"
+        }
+    ]
+}
