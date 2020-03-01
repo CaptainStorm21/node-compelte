@@ -1,0 +1,57 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">14.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+    <Name>building node express</Name>
+    <RootNamespace>building node express</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>370cd0e3-e8ce-415b-a89f-b4399a6182fe</ProjectGuid>
+    <ProjectHome>.</ProjectHome>
+    <StartupFile>2-website project\conference\server\index.js</StartupFile>
+    <StartWebBrowser>False</StartWebBrowser>
+    <SearchPath>
+    </SearchPath>
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <ProjectTypeGuids>{3AF33F2E-1136-4D97-BBB7-1795711AC8B8};{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}</ProjectTypeGuids>
+    <StartWebBrowser>false</StartWebBrowser>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="0-webserver\adding-routes-and-logic.js" />
+    <Content Include="1-express\handling-errors-express.js" />
+    <Content Include="1-express\index.js" />
+    <Content Include="0-webserver\pure-node-server.js" />
+    <Content Include="0-webserver\server-info.txt" />
+    <Content Include="1-express\middleware.js" />
+    <Content Include="2-website project\conference\server\index.js" />
+    <Content Include="2-website project\conference\server\routes\index.js" />
+    <Content Include="2-website project\conference\server\routes\feedback\index.js" />
+    <Content Include="2-website project\conference\server\routes\speakers\index.js" />
+    <Content Include="app.js" />
+    <Content Include="package.json" />
+    <Content Include="README.md" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="1-express\" />
+    <Folder Include="0-webserver\" />
+    <Folder Include="2-website project\" />
+    <Folder Include="2-website project\conference\" />
+    <Folder Include="2-website project\conference\server\" />
+    <Folder Include="2-website project\conference\public\" />
+    <Folder Include="2-website project\conference\server\routes\" />
+    <Folder Include="2-website project\conference\server\routes\feedback\" />
+    <Folder Include="2-website project\conference\server\routes\speakers\" />
+  </ItemGroup>
+  <Import Project="$(VSToolsPath)\Node.js Tools\Microsoft.NodejsToolsV2.targets" />
+</Project>

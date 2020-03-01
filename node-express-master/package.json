@@ -1,0 +1,13 @@
+{
+  "name": "building-node-express",
+  "version": "0.0.0",
+  "description": "building node express",
+  "main": "app.js",
+  "author": {
+    "name": ""
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^1.19.1"
+  }
+}

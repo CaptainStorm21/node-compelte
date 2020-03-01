@@ -1,0 +1,12 @@
+{
+  "name": "note-taking-app",
+  "version": "0.0.0",
+  "description": "Note Taking App",
+  "main": "app.js",
+  "author": {
+    "name": ""
+  },
+  "dependencies": {
+    "validator": "^11.1.0"
+  }
+}

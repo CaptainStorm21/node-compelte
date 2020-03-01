@@ -1,0 +1,24 @@
+/*
+ * GET <path> : request content
+ * POST <path>  : sends content with body of the request
+ * PUT <path>  : used to update data
+ * Delete <path> : delete data00
+*/
+
+
+/*
+ * Status code are used to tell the browser the outcome of the request
+ * 2xx:success
+ * 
+ * 3xx: redirect
+ * 301: moved perm
+ * 
+ * 4xx: client error
+ * 400: bad request
+ * 403: Forbidden
+ * 404: Not found
+ * 
+ * 5xx: Server Error
+ * 500: Internal server error
+ */
+
